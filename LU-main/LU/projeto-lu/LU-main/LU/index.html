@@ -99,60 +99,6 @@
             }
         };
 
-        var funcIsnta = {
-            indexes : ["Abra o insta!", "Lu abra o Instragram!", "Lu insta!"],
-            action: i => {
-                if(i==0 || i==1 || i==2)
-                lu.say("Abrindo o Instagram!")
-                window.open("https://www.instagram.com/")
-            }
-        }
-
-        var funcWhats = {
-            indexes : ["Abra o WhatsApp", "Lu abra o WhatsApp!", "Lu WhatsApp!"],
-            action: i => { 
-                if (i==0 || i==1 || i==2)
-                lu.say("Abrindo o WhatsApp!")
-                window.open("https://web.whatsapp.com/")
-            }
-        }
-
-        var funcFace = {
-            indexes : ["Abra o Facebook", " Lu  abra o Facebook", "Lu Facebook!"],
-            action: i => { 
-                if (i==0 || i==1 || i==2)
-                lu.say("Abrindo o Facebook")
-                window.open("https://www.facebook.com/")
-            }  
-        }
-
-        var funcTwitter = {
-            indexes : ["Abra o Twitter", " Lu  abra o Twitter", "Lu Twitter!"],
-            action: i => { 
-                if (i==0 || i==1 || i==2)
-                lu.say("Abrindo o Twitter")
-                window.open("https://twitter.com/")
-            }  
-        }
-
-        var funcTiktok = {
-            indexes : ["Abra o Tiktok", " Lu  abra o Tikyok", "Lu Tiktok!"],
-            action: i => { 
-                if (i==0 || i==1 || i==2)
-                lu.say("Abrindo o Tiktok")
-                window.open("https://www.tiktok.com/explore")
-            }  
-        }
-
-        var funcGmail = {
-            indexes : ["Abra o Gmail", " Lu  abra o Gmail", "Lu Gmail!"],
-            action: i => { 
-                if (i==0 || i==1 || i==2)
-                lu.say("Abrindo o Gmail")
-                window.open("http://mail.google.com/mail?hl=pt-BR")
-            }  
-        }
-
         var funcPiad = {
             indexes: ["Conte uma piada!", "Faça uma piada"],
             action: i =>{
@@ -228,12 +174,6 @@
         lu.addCommands(funcOi);
         lu.addCommands(funcGoogle);
         lu.addCommands(funcYoutube);
-        lu.addCommands(funcIsnta);
-        lu.addCommands(funcFace);
-        lu.addCommands(funcTwitter);
-        lu.addCommands(funcTiktok);
-        lu.addCommands(funcWhats);
-        lu.addCommands(funcGmail)
         lu.addCommands(funcSrg);
         lu.addCommands(funcDate);
         lu.addCommands(funcsay);

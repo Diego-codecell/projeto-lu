@@ -76,7 +76,6 @@ button{
     background-color: #000;
     font-weight: bolder;
     font-size: 100px;
-    cursor: pointer;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 button:hover{
